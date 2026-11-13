@@ -44,7 +44,7 @@ Navigate to the project directory and execute the following commands.
 **Compile the Java files:**
 
 ```bash
-javac -d out src/*.java
+javac -d out *.java
 ```
 
 **Run the application:**
@@ -74,15 +74,13 @@ java -cp out Main
 ```text
 GoalVault/
 │
-├── src/
-│   ├── Main.java
-│   ├── Goal.java
-│   ├── Contribution.java
-│   ├── GoalCalculator.java
-│   └── GoalManager.java
-│
+├── Main.java
+├── Goal.java
+├── Contribution.java
+├── GoalCalculator.java
+├── GoalManager.java
 ├── README.md
-└── .gitignore
+└── .gitignore 
 ```
 
 ## Sample Run
